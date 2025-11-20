@@ -21,7 +21,7 @@ func main() {
 
 	fmt.Println("File written successfully.")
 	balanceFromFile := readFromFile()
-	fmt.Printf("Balance read from file: %.2f\n", balanceFromFile)
+	fmt.Print(balanceFromFile)
 }
 func writeToFile(balance float64) {
 	balanceStr := fmt.Sprintf("Current Balance: %.2f\n", balance)
